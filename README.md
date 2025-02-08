@@ -59,4 +59,14 @@ COMMANDS:
 2. python setup.py install
 
 3. pip install -r requirements.txt
-# dcs-1
+
+
+docker build --tag dcs-1/student_service .
+
+docker run -it -p 8080:8080 dcs-1/student_service
+
+
+
+- Absolute path 
+cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
+
