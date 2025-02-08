@@ -2,7 +2,8 @@ name: Build Test and push
 on: [push]
 env:
   IMAGE_NAME: student_service
-  REPO_NAME: dcs-1
+  REPO_NAME: saifrashed
+
 
 
 jobs:
