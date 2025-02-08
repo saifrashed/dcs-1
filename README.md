@@ -54,11 +54,15 @@ docker run -p 8080:8080 swagger_server
 
 COMMANDS:
 
-1. source venv/bin/activate
+source venv/bin/activate
 
-2. python setup.py install
+python setup.py install
 
-3. pip install -r requirements.txt
+pip install -r requirements.txt
+
+
+pip3 install -r requirements.txt
+python3 -m swagger_server
 
 
 docker build --tag dcs-1/student_service .
@@ -70,3 +74,12 @@ docker run -it -p 8080:8080 dcs-1/student_service
 - Absolute path 
 cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
 
+
+
+
+TOKEN DOCKER HUB: 
+DCS-1=dckr_pat_LlpSqwdkgNtW8P6Hv2k0AglmWIk
+
+TOKEN GITHUB:
+REGISTRY_USERNAME= kY#IRIK&22Kd^vW$
+REGISTRY_PASSWORD= tpL1^oKiRoPOz!&J
