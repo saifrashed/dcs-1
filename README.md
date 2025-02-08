@@ -78,9 +78,4 @@ cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
 
 
 TOKEN DOCKER HUB: 
-REGISTRY_USERNAME= dckr_pat_xbCQrDmxd7Y1BPxPTnT8Uta2CS8
 REGISTRY_PASSWORD= dckr_pat_a9zEQRlzdeOqHdwpIQpLXPkhq-Y
-
-TOKEN GITHUB:
-REGISTRY_USERNAME= kY#IRIK&22Kd^vW$
-REGISTRY_PASSWORD= tpL1^oKiRoPOz!&J
