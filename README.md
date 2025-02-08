@@ -70,6 +70,31 @@ docker build --tag dcs-1/student_service .
 docker run -it -p 8080:8080 dcs-1/student_service
 
 
+microk8s kubectl apply -f .
+
+microk8s status --wait-ready
+
+microk8s kubectl delete deployment.apps/service
+
+microk8s ctr images pull docker.io/saifrashed/student_service:latest
+
+microk8s kubectl logs pod/service-d85858965-5pv6v
+
+
+
+
+Visit deployment: http://192.168.64.2:32318/tutorial/1.0.0/ui/
+
+
+
+
+
+
+
+
+
+
+
 
 - Absolute path 
 cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
@@ -79,3 +104,7 @@ cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
 
 TOKEN DOCKER HUB: 
 REGISTRY_PASSWORD= dckr_pat_a9zEQRlzdeOqHdwpIQpLXPkhq-Y
+
+
+
+
