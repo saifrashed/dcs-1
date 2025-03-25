@@ -6,7 +6,7 @@ services:
     depends_on:
       - mongo
     environment:
-      MONGO_URI: mongodb://mongo:UxQQYfaaSvjaiPQhTthwsNsijnQgQvtg@junction.proxy.rlwy.net:40820
+      MONGO_URI: 
       DATABASE_NAME: test
       COLLECTION_NAME: students
 

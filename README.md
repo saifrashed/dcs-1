@@ -102,9 +102,3 @@ cd /Users/saifrashed/Downloads/uva-master/dcs/assignment-1
 
 
 
-TOKEN DOCKER HUB: 
-REGISTRY_PASSWORD= dckr_pat_a9zEQRlzdeOqHdwpIQpLXPkhq-Y
-
-
-
-
